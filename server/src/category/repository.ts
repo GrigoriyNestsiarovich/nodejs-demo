@@ -3,12 +3,35 @@ import { Category } from './category';
 const categories: Category[] = [
   {
     id: 1,
-    name: 'First category',
-    description: 'test',
+    name: 'Nature',
   },
   {
     id: 2,
-    name: 'Second category',
+    name: 'Musical instruments',
+  },
+  {
+    id: 3,
+    name: 'Travel',
+  },
+  {
+    id: 4,
+    name: 'Medicine',
+  },
+  {
+    id: 5,
+    name: 'Factory',
+  },
+  {
+    id: 6,
+    name: 'Social networks',
+  },
+  {
+    id: 7,
+    name: 'Education',
+  },
+  {
+    id: 8,
+    name: 'Relaxation',
   },
 ];
 
@@ -41,4 +64,18 @@ export function deleteCategory(id: number): Promise<void> {
   }
   categories.splice(index, 1);
   return Promise.resolve();
+}
+
+export function updateCategory(category: Category): Promise<Category> {
+  const categoryIndex = categories.findIndex((category) => category.name.toLowerCase() === category.name.toLowerCase());
+  if (categoryIndex < 0) {
+    return Promise.reject(new Error('Category not found'));
+  }
+  const existsItem = categories.splice(categoryIndex, 1)[0];
+  const newCategory: Category = {
+    ...existsItem,
+    ...category,
+  };
+  categories.push(newCategory);
+  return Promise.resolve(newCategory);
 }

@@ -1,0 +1,54 @@
+[
+  {
+    "category": "/nature",
+    "images": [
+      "bird.png",
+      "cactus.png",
+      "deer.png",
+      "fox.png",
+      "ladybug.png",
+      "whale.png",
+      "wood.png",
+      "jellyfish.png"
+    ]
+  },
+  {
+    "category": "/music",
+    "images": [
+      "accordion.png",
+      "bass.png",
+      "drums.png",
+      "microphone.png",
+      "music-player.png",
+      "saxophone.png",
+      "triangle.png",
+      "violin.png"
+    ]
+  },
+  {
+    "category": "/travel",
+    "images": [
+      "airplane.png",
+      "airport.png",
+      "backpack.png",
+      "camera.png",
+      "compass.png",
+      "earth.png",
+      "paris.png",
+      "train.png"
+    ]
+  },
+  {
+    "category": "/medicine",
+    "images": [
+      "face-mask.png",
+      "first-aid-kit.png",
+      "injector.png",
+      "pills.png",
+      "scalpel.png",
+      "thermometer.png",
+      "virus.png",
+      "x-ray.png"
+    ]
+  }
+]

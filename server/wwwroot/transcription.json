@@ -1,0 +1,530 @@
+[
+  [
+    {
+      "word": "Bird",
+      "translation": "Птица",
+      "image": "./nature/bird.png",
+      "audioSrc": "./audio/bird.mp3",
+      "category": "Animals",
+      "id": 0
+    },
+    {
+      "word": "Cactus",
+      "translation": "Кактус",
+      "image": "./nature/cactus.png",
+      "audioSrc": "./audio/cactus.mp3",
+      "category": "Animals",
+      "id": 1
+    },
+    {
+      "word": "Deer",
+      "translation": "Олень",
+      "image": "./nature/deer.png",
+      "audioSrc": "./audio/deer.mp3",
+      "category": "Animals",
+      "id": 2
+    },
+    {
+      "word": "Fox",
+      "translation": "Лиса",
+      "image": "./nature/fox.png",
+      "audioSrc": "./audio/fox.mp3",
+      "category": "Animals",
+      "id": 3
+    },
+    {
+      "word": "Ladybug",
+      "translation": "Божья коровка",
+      "image": "./nature/ladybug.png",
+      "audioSrc": "./audio/ladybug.mp3",
+      "category": "Animals",
+      "id": 4
+    },
+    {
+      "word": "Whale",
+      "translation": "Кит",
+      "image": "./nature/whale.png",
+      "audioSrc": "./audio/whale.mp3",
+      "category": "Animals",
+      "id": 5
+    },
+    {
+      "word": "Wood",
+      "translation": "Дерево",
+      "image": "./nature/wood.png",
+      "audioSrc": "./audio/wood.mp3",
+      "category": "Animals",
+      "id": 6
+    },
+    {
+      "word": "Jellyfish",
+      "translation": "Медуза",
+      "image": "./nature/jellyfish.png",
+      "audioSrc": "./audio/jellyfish.mp3",
+      "category": "Animals",
+      "id": 7
+    }
+  ],
+  [
+    {
+      "word": "Accordion",
+      "translation": "Аккордеон",
+      "image": "./music/accordion.png",
+      "audioSrc": "./audio/accordion.mp3",
+      "category": "Musical instruments",
+      "id": 8
+    },
+    {
+      "word": "Bass guitar",
+      "translation": "Басс гитара",
+      "image": "./music/bass.png",
+      "audioSrc": "./audio/bass-guitar.mp3",
+      "category": "Musical instruments",
+      "id": 9
+    },
+    {
+      "word": "Drums",
+      "translation": "Барабаны",
+      "image": "./music/drums.png",
+      "audioSrc": "./audio/drums.mp3",
+      "category": "Musical instruments",
+      "id": 10
+    },
+    {
+      "word": "Microphone",
+      "translation": "Микрофон",
+      "image": "./music/microphone.png",
+      "audioSrc": "./audio/microphone.mp3",
+      "category": "Musical instruments",
+      "id": 11
+    },
+    {
+      "word": "Record player",
+      "translation": "Проигрыватель",
+      "image": "./music/music-player.png",
+      "audioSrc": "./audio/record-player.mp3",
+      "category": "Musical instruments",
+      "id": 12
+    },
+    {
+      "word": "Saxophone",
+      "translation": "Саксофон",
+      "image": "./music/saxophone.png",
+      "audioSrc": "./audio/saxophone.mp3",
+      "category": "Musical instruments",
+      "id": 13
+    },
+    {
+      "word": "Triangle",
+      "translation": "Треугольник",
+      "image": "./music/triangle.png",
+      "audioSrc": "./audio/triangle.mp3",
+      "category": "Musical instruments",
+      "id": 14
+    },
+    {
+      "word": "Violin",
+      "translation": "Скрипка",
+      "image": "./music/violin.png",
+      "audioSrc": "./audio/violin.mp3",
+      "category": "Musical instruments",
+      "id": 15
+    }
+  ],
+  [
+    {
+      "word": "Airplane",
+      "translation": "Самолет",
+      "image": "./travel/airplane.png",
+      "audioSrc": "./audio/airplane.mp3",
+      "category": "Travel",
+      "id": 16
+    },
+    {
+      "word": "Airport",
+      "translation": "Аэропорт",
+      "image": "./travel/airport.png",
+      "audioSrc": "./audio/airport.mp3",
+      "category": "Travel",
+      "id": 17
+    },
+    {
+      "word": "Backpack",
+      "translation": "Рюкзак",
+      "image": "./travel/backpack.png",
+      "audioSrc": "./audio/backpack.mp3",
+      "category": "Travel",
+      "id": 18
+    },
+    {
+      "word": "Camera",
+      "translation": "Камера",
+      "image": "./travel/camera.png",
+      "audioSrc": "./audio/camera.mp3",
+      "category": "Travel",
+      "id": 19
+    },
+    {
+      "word": "Compass",
+      "translation": "Компас",
+      "image": "./travel/compass.png",
+      "audioSrc": "./audio/compass.mp3",
+      "category": "Travel",
+      "id": 20
+    },
+    {
+      "word": "Earth",
+      "translation": "Земля",
+      "image": "./travel/earth.png",
+      "audioSrc": "./audio/earth.mp3",
+      "category": "Travel",
+      "id": 21
+    },
+    {
+      "word": "Paris",
+      "translation": "Париж",
+      "image": "./travel/paris.png",
+      "audioSrc": "./audio/paris.mp3",
+      "category": "Travel",
+      "id": 22
+    },
+    {
+      "word": "Train",
+      "translation": "Поезд",
+      "image": "./travel/train.png",
+      "audioSrc": "./audio/train.mp3",
+      "category": "Travel",
+      "id": 23
+    }
+  ],
+  [
+    {
+      "word": "Face mask",
+      "translation": "Защитная маска",
+      "image": "./medicine/face-mask.png",
+      "audioSrc": "./audio/face_mask.mp3",
+      "category": "Medicine",
+      "id": 24
+    },
+    {
+      "word": "First aid bag",
+      "translation": "Аптечка",
+      "image": "./medicine/first-aid-bag.png",
+      "audioSrc": "./audio/first-aid-bag.m4a",
+      "category": "Medicine",
+      "id": 25
+    },
+    {
+      "word": "Injection",
+      "translation": "Шприц",
+      "image": "./medicine/injection.png",
+      "audioSrc": "./audio/injection.mp3",
+      "category": "Medicine",
+      "id": 26
+    },
+    {
+      "word": "Pills",
+      "translation": "Таблетки",
+      "image": "./medicine/pills.png",
+      "audioSrc": "./audio/pills.mp3",
+      "category": "Medicine",
+      "id": 27
+    },
+    {
+      "word": "Scalpel",
+      "translation": "Скальпель",
+      "image": "./medicine/scalpel.png",
+      "audioSrc": "./audio/scalpel.mp3",
+      "category": "Medicine",
+      "id": 28
+    },
+    {
+      "word": "Thermometer",
+      "translation": "Термометр",
+      "image": "./medicine/thermometer.png",
+      "audioSrc": "./audio/thermometer.mp3",
+      "category": "Medicine",
+      "id": 29
+    },
+    {
+      "word": "Virus",
+      "translation": "Вирус",
+      "image": "./medicine/virus.png",
+      "audioSrc": "./audio/virus.mp3",
+      "category": "Medicine",
+      "id": 30
+    },
+    {
+      "word": "X-ray",
+      "translation": "Рентген",
+      "image": "./medicine/x-ray.png",
+      "audioSrc": "./audio/x-ray.mp3",
+      "category": "Medicine",
+      "id": 31
+    }
+  ],
+  [
+    {
+      "word": "Fire extinguisher",
+      "translation": "Огнетушитель",
+      "image": "./factory/fire-extinguisher.png",
+      "audioSrc": "./audio/extinguisher.mp3",
+      "category": "Factory",
+      "id": 32
+    },
+    {
+      "word": "Forklift",
+      "translation": "Погрузчик",
+      "image": "./factory/forklift.png",
+      "audioSrc": "./audio/forklift.mp3",
+      "category": "Factory",
+      "id": 33
+    },
+    {
+      "word": "Waste",
+      "translation": "Отходы",
+      "image": "./factory/waste.png",
+      "audioSrc": "./audio/waste.mp3",
+      "category": "Factory",
+      "id": 34
+    },
+    {
+      "word": "Barrel",
+      "translation": "Бочка нефти",
+      "image": "./factory/oil-barrel.png",
+      "audioSrc": "./audio/barrel.mp3",
+      "category": "Factory",
+      "id": 35
+    },
+    {
+      "word": "Helmet",
+      "translation": "Каска",
+      "image": "./factory/helmet.png",
+      "audioSrc": "./audio/helmet.mp3",
+      "category": "Factory",
+      "id": 36
+    },
+    {
+      "word": "Laser",
+      "translation": "Лазер",
+      "image": "./factory/laser.png",
+      "audioSrc": "./audio/laser.mp3",
+      "category": "Factory",
+      "id": 37
+    },
+    {
+      "word": "Gloves",
+      "translation": "Перчатки",
+      "image": "./factory/gloves.png",
+      "audioSrc": "./audio/gloves.mp3",
+      "category": "Factory",
+      "id": 38
+    },
+    {
+      "word": "Factory",
+      "translation": "Завод",
+      "image": "./factory/factory.png",
+      "audioSrc": "./audio/factory.mp3",
+      "category": "Factory",
+      "id": 39
+    }
+  ],
+  [
+    {
+      "word": "Twitter",
+      "translation": "Твиттер",
+      "image": "./social/twitter.png",
+      "audioSrc": "./audio/twitter.mp3",
+      "category": "Socail networks",
+      "id": 40
+    },
+    {
+      "word": "Twitch",
+      "translation": "Твич",
+      "image": "./social/twitch.png",
+      "audioSrc": "./audio/twitch.mp3",
+      "category": "Socail networks",
+      "id": 41
+    },
+    {
+      "word": "Telegram",
+      "translation": "Телеграм",
+      "image": "./social/telegram.png",
+      "audioSrc": "./audio/telegram.mp3",
+      "category": "Socail networks",
+      "id": 42
+    },
+    {
+      "word": "Snapchat",
+      "translation": "Снэпчат",
+      "image": "./social/snapchat.png",
+      "audioSrc": "./audio/snapchat.mp3",
+      "category": "Socail networks",
+      "id": 43
+    },
+    {
+      "word": "Instagram",
+      "translation": "Инстаграм",
+      "image": "./social/instagram.png",
+      "audioSrc": "./audio/instagram.mp3",
+      "category": "Socail networks",
+      "id": 44
+    },
+    {
+      "word": "Facebook",
+      "translation": "Фэйсбук",
+      "image": "./social/facebook.png",
+      "audioSrc": "./audio/facebook.mp3",
+      "category": "Socail networks",
+      "id": 45
+    },
+    {
+      "word": "Discord",
+      "translation": "Дискорд",
+      "image": "./social/discord.png",
+      "audioSrc": "./audio/discord.mp3",
+      "category": "Socail networks",
+      "id": 46
+    },
+    {
+      "word": "Google",
+      "translation": "Гугл",
+      "image": "./social/chrome.png",
+      "audioSrc": "./audio/google.mp3",
+      "category": "Socail networks",
+      "id": 47
+    }
+  ],
+  [
+    {
+      "word": "Anatomy",
+      "translation": "Анатомия",
+      "image": "./education/anatomy.png",
+      "audioSrc": "./audio/anatomy.mp3",
+      "category": "Education",
+      "id": 48
+    },
+    {
+      "word": "Atom",
+      "translation": "Атом",
+      "image": "./education/atom.png",
+      "audioSrc": "./audio/atom.mp3",
+      "category": "Education",
+      "id": 49
+    },
+    {
+      "word": "Blackboard",
+      "translation": "Школьная доска",
+      "image": "./education/blackboard.png",
+      "audioSrc": "./audio/blackboard.mp3",
+      "category": "Education",
+      "id": 50
+    },
+    {
+      "word": "Brain",
+      "translation": "Мозг",
+      "image": "./education/brain.png",
+      "audioSrc": "./audio/brain.mp3",
+      "category": "Education",
+      "id": 51
+    },
+    {
+      "word": "Chemistry",
+      "translation": "Химия",
+      "image": "./education/chemistry.png",
+      "audioSrc": "./audio/chemistry.mp3",
+      "category": "Education",
+      "id": 52
+    },
+    {
+      "word": "Geography",
+      "translation": "География",
+      "image": "./education/geography.png",
+      "audioSrc": "./audio/geography.mp3",
+      "category": "Education",
+      "id": 53
+    },
+    {
+      "word": "Painter's palette",
+      "translation": "Палитра",
+      "image": "./education/paint-palette.png",
+      "audioSrc": "./audio/painter's-palette.mp3",
+      "category": "Education",
+      "id": 54
+    },
+    {
+      "word": "Telescope",
+      "translation": "Телескоп",
+      "image": "./education/telescope.png",
+      "audioSrc": "./audio/telescope.mp3",
+      "category": "Education",
+      "id": 55
+    }
+  ],
+  [
+    {
+      "word": "Ball",
+      "translation": "Мяч",
+      "image": "./chill/ball.png",
+      "audioSrc": "./audio/ball.mp3",
+      "category": "Relaxation",
+      "id": 56
+    },
+    {
+      "word": "Chair",
+      "translation": "Лежак",
+      "image": "./chill/chair.png",
+      "audioSrc": "./audio/chair.mp3",
+      "category": "Relaxation",
+      "id": 57
+    },
+    {
+      "word": "Cocktail",
+      "translation": "Коктейль",
+      "image": "./chill/cocktail.png",
+      "audioSrc": "./audio/cocktail.mp3",
+      "category": "Relaxation",
+      "id": 58
+    },
+    {
+      "word": "Hut",
+      "translation": "Хижина",
+      "image": "./chill/hut.png",
+      "audioSrc": "./audio/hut.mp3",
+      "category": "Relaxation",
+      "id": 59
+    },
+    {
+      "word": "Palm tree",
+      "translation": "Пальма",
+      "image": "./chill/palm-tree.png",
+      "audioSrc": "./audio/palm_tree.mp3",
+      "category": "Relaxation",
+      "id": 60
+    },
+    {
+      "word": "Pool",
+      "translation": "Бассейн",
+      "image": "./chill/Pool.png",
+      "audioSrc": "./audio/pool.mp3",
+      "category": "Relaxation",
+      "id": 61
+    },
+    {
+      "word": "Sandals",
+      "translation": "Шлепки",
+      "image": "./chill/sandals.png",
+      "audioSrc": "./audio/sandals.mp3",
+      "category": "Relaxation",
+      "id": 62
+    },
+    {
+      "word": "Diver mask",
+      "translation": "Маска дайвера",
+      "image": "./chill/snorkel.png",
+      "audioSrc": "./audio/diver-mask.m4a",
+      "category": "Relaxation",
+      "id": 63
+    }
+  ]
+]

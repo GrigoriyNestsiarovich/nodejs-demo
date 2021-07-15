@@ -5,6 +5,7 @@ import {
   getCategoryById,
   createCategory,
   deleteCategory,
+  updateCategory,
 } from './repository';
 import { Category } from './category';
 
@@ -50,6 +51,21 @@ router.delete('/:id', async (req, res) => {
   try {
     await deleteCategory(categoryId);
     return res.sendStatus(StatusCodes.Ok);
+  } catch (e) {
+    return res.status(StatusCodes.BadRequest).send(e);
+  }
+});
+
+// update category
+router.put('/', async (req, res) => {
+  const data = req.body as Category;
+  const category = await getCategoryById(data.id);
+  if (!category) {
+    return res.status(StatusCodes.BadRequest).send('Invalid category ID');
+  }
+  try {
+    const newData = await updateCategory(data);
+    return res.json(newData);
   } catch (e) {
     return res.status(StatusCodes.BadRequest).send(e);
   }

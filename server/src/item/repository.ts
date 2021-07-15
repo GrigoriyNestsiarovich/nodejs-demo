@@ -1,38 +1,36 @@
-import { Item } from './item';
+import { Card } from './item';
+import { cards } from './rep';
 
-const items: Item[] = [
-  {
-    name: 'Test item',
-    price: 100,
-    description: 'test description',
-    categoryId: 1,
-  },
-];
+const items: Card[] = cards;
 
-export function getItems(): Promise<Item[]> {
-  return Promise.resolve<Item[]>(items);
+export function getCards(): Promise<Card[]> {
+  return Promise.resolve<Card[]>(items);
 }
 
-export function getItemByName(name: string): Promise<Item | undefined> {
-  return Promise.resolve(items.find((it) => it.name.toLowerCase() === name.toLowerCase()));
+export function getCardByName(name: string): Promise<Card | undefined> {
+  return Promise.resolve(items.find((it) => it.word.toLowerCase() === name.toLowerCase()));
 }
 
-export function createItem(item: Item): Promise<Item> {
-  const isExist = typeof items.find((it) => it.name.toLowerCase() === item.name.toLowerCase()) !== 'undefined';
+export function getCardByCategoryId(catId: number): Promise<Card | undefined> {
+  return Promise.resolve(items.find((it) => it.categoryId === catId));
+}
+
+export function createCard(item: Card): Promise<Card> {
+  const isExist = typeof items.find((it) => it.word.toLowerCase() === item.word.toLowerCase()) !== 'undefined';
   if (isExist) {
-    return Promise.reject(new Error(`Item with name ${item.name} is already exists.`));
+    return Promise.reject(new Error(`Item with name ${item.word} is already exists.`));
   }
   items.push(item);
   return Promise.resolve(item);
 }
 
-export function updateItem(item: Item): Promise<Item> {
-  const itemIndex = items.findIndex((it) => it.name.toLowerCase() === item.name.toLowerCase());
+export function updateCard(item: Card): Promise<Card> {
+  const itemIndex = items.findIndex((it) => it.word.toLowerCase() === item.word.toLowerCase());
   if (itemIndex < 0) {
     return Promise.reject(new Error('Item not found'));
   }
   const existsItem = items.splice(itemIndex, 1)[0];
-  const newItem: Item = {
+  const newItem: Card = {
     ...existsItem,
     ...item,
   };
@@ -40,8 +38,8 @@ export function updateItem(item: Item): Promise<Item> {
   return Promise.resolve(newItem);
 }
 
-export function deleteItem(name: string): Promise<void> {
-  const index = items.findIndex((it) => it.name.toLowerCase() === name.toLowerCase());
+export function deleteCard(name: string): Promise<void> {
+  const index = items.findIndex((it) => it.word.toLowerCase() === name.toLowerCase());
   if (index < 0) {
     Promise.reject(new Error('Item not found.'));
   }

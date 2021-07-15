@@ -1,7 +1,13 @@
-export interface Item {
-  name: string;
-  price: number;
+export interface Card {
+  word: string;
+  translation: string;
   categoryId: number;
-  description?: string;
-  image?: string;
+  category: string;
+  audioSrc: string;
+  image: string;
+  clicks?: number;
+  correct?: number;
+  wrong?: number;
+  error?: number;
+  id: number;
 }

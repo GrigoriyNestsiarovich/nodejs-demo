@@ -16,11 +16,12 @@ const indexPath = path.resolve(__dirname, '../wwwroot/index.html');
 
 // if query not starts with '/api/' string - send file from wwwroot
 app.use(/^(?!\/api\/)/, express.static(publicPath));
+
 // if file doesn't exists - send index.html
 app.use(/^(?!\/api\/)/, (req, res) => {
   res.sendFile(indexPath);
 });
 app.use('/api/categories', categories);
-app.use('/api/items', items);
+app.use('/api/cards', items);
 
 app.listen(3000, () => console.log('Server started on http://localhost:3000'));
